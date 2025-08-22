@@ -8,8 +8,7 @@ El objetivo es que el usuario pueda mejorar su reconocimiento de caracteres, aso
 ##  Mecánica del juego
 
 1. Al cargar la página, aparece un **símbolo hiragana** al azar.
-2. El usuario debe escribir en el campo de texto la lectura en **romaji**.
-3. Al presionar el botón de verificar:
+2. Al presionar el botón de verificar:
    -  Si es correcto:  
      - Se muestra un mensaje de acierto.  
      - Se suma un punto al contador de aciertos.  
@@ -24,7 +23,7 @@ El objetivo es que el usuario pueda mejorar su reconocimiento de caracteres, aso
 ## Funcionamiento técnico
 
 - **Frontend (Vista):**  
-  Una página en HTML con un formulario que permite al usuario introducir la respuesta.  
+  Una página en PHP(USADA COMO HTML) con un formulario que permite al usuario introducir la respuesta.  
   La interfaz se actualiza dinámicamente para mostrar:
   - El símbolo actual en hiragana.
   - El mensaje de acierto/error.
